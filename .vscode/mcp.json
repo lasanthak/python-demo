@@ -1,0 +1,8 @@
+{
+	"servers": {
+		"Geo Weather Server": {
+			"url": "http://localhost:8088/sse",
+			"type": "http"
+		}
+	}
+}

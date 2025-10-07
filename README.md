@@ -3,6 +3,35 @@ Python Test and Learn Project
 
 This project uses Python 3.
 
+## Running Locally
+
+To run locally, you can use the following command:
+
+**If Virtual env is not created, create it first:**
+```
+python3 -m venv venv
+```
+
+**Activate the virtual environment and install dependencies**
+```
+source venv/bin/activate
+```
+
+**Install dependencies**
+```
+pip install -r requirements.txt
+pip list
+```
+
+**Run the model**
+```
+PYTHONPATH=. python <filename>.py
+```
+
+**Deactivate the virtual environment**
+```
+deactivate
+```
 
 ## Hugging Face Authentication
 * Create a new account on [Hugging Face](https://huggingface.co/)
